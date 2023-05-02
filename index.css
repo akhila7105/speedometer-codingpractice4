@@ -1,0 +1,40 @@
+/* Write your CSS here */
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #07080c;
+}
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+}
+.description {
+  color: #ffffff;
+}
+img {
+  width: 50%;
+}
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.accel-button {
+  background-color: #0b69ff;
+  border: 0px none;
+}
+.apply-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin-left: 5px;
+}
